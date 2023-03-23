@@ -1,4 +1,5 @@
 type User @model {
   username: String! @unique
   avatar: String @resolver(name: "avatar")
+  gravatar: URL @resolver(name: "user/gravatar")
 }
