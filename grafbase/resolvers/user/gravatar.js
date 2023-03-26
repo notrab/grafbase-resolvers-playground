@@ -1,5 +1,3 @@
-import crypto from 'crypto'
-
 export default function Resolver(root, args, context, info) {
 //  const { email } = root
 
